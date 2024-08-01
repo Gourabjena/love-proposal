@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ 
+
+}
+.box1{
+height: 200px;
+width: 210px;
+background-image: url(Dream-Person.jpg);
+background-size: cover;
+background-color: rgb(16, 154, 154);
+border-radius: 15px;
+margin-bottom: 25px;
+}
+.boxp1{
+  height: 200px;
+  width: 210px;
+  background-image: url(p1.jpg);
+  background-size: cover;
+  background-color: rgb(16, 154, 154);
+  border-radius: 15px;
+  margin-bottom: 25px;
+  }
+.boxp2{
+    height: 200px;
+    width: 210px;
+    background-image: url(p2.jpg);
+    background-size: cover;
+    background-color: rgb(16, 154, 154);
+    border-radius: 15px;
+    margin-bottom: 25px;
+    }
+ 
+    .boxfp{
+      height: 200px;
+       width: 210px;
+       background-image: url(fp.jpg);
+       background-size: cover;
+       background-color: rgb(16, 154, 154);
+       border-radius: 15px;
+       margin-bottom: 25px;
+       }
+       .boxup{
+        height: 200px;
+         width: 210px;
+         background-image: url(fp.gif);
+         background-size: cover;
+         background-color: rgb(16, 154, 154);
+         border-radius: 15px;
+         margin-bottom: 25px;
+         }
+      
+.button
+{
+  
+ 
+  margin-top: 15px;
+ 
+  
+}
+.button button{
+  position: absolute;
+  cursor: pointer;
+}
+.byes {
+  padding: 5px 20px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  left: 42%;
+  background-color: aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bno{
+  
+  padding: 5px 20px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  left: 52%;
+  background-color: aliceblue;
+  border-radius: 5px;
+  
+ 
+}
+.box2  {
+  margin-left: 15px;
+}
+.box2 p {
+  font-size: 17px;
+  margin-left: 15px;
+}
+.header{
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  
+}
+.header button{
+  
+  padding: 5px 20px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+@media only screen and (max-width: 450px) {
+  .header button{
+margin-left: 17px;
+  }
+
+  .byes {
+    
+    left: 28%;
+    
+  }
+  .bno{
+    
+    
+    left: 55%;
+    
+    
+   
+  }
+}
